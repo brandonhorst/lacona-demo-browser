@@ -28,7 +28,7 @@
     "lacona-addon-ordered": "0.4.0",
     "lacona-addon-stateful": "0.8.0",
     "lacona-addon-unique": "^0.3.0",
-    "lacona-phrase-datetime": "^0.1.1",
+    "lacona-phrase-datetime": "^0.2.0",
     "lacona-phrase-freetext": "^0.5.2",
     "lacona-util-fulltext": "0.2.0",
     "lodash": "^2.4.1",
