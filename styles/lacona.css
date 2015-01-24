@@ -1,0 +1,127 @@
+.lacona-view {
+  font-size: 30px;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  text-shadow: #000 1px 1px 1px;
+  background-color: rgb(21,23,24);
+}
+.lacona-view .input {
+  width: 90%;
+  margin: 80px 5% 0 5%;
+  height: 40px;
+  color: #FFF ;
+  background-color: rgb(21,23,24);
+  outline: none;
+  border: none;
+}
+
+.lacona-view .options {
+  width: 90%;
+  margin: 0 5%;
+  position: relative;
+  top: -43px;
+  left: -2px;
+  pointer-events: none;
+}
+
+.lacona-view .central {
+  height: 40px;
+  overflow: hidden;
+  position: relative;
+  z-index: 40;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.lacona-view .central .option {
+  background-color: rgb(21,23,24);
+}
+
+.lacona-view .non-central {
+  position: relative;
+  z-index: 20;
+  padding: 1px;
+}
+
+.lacona-view .non-central .completion {
+  visibility: hidden;
+}
+
+.lacona-view .central .suggestion {
+  background-color: rgba(255,255,255,0.1);
+  border-radius: 4px;
+  border: none;
+}
+
+.lacona-view .suggestion div:not(.highlighted), .lacona-view .completion {
+  opacity: 0.5;
+}
+
+.lacona-view .option {
+  margin: 0;
+  padding: 1px 0 0 2px;
+  position: absolute;
+  height: 40px;
+  z-index: 20;
+  /*transition-property: top;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;*/
+}
+
+
+
+.lacona-view .non-central .option-enter {
+  opacity: 0;
+  transition: opacity 0.2s ease-in;
+  transition-timing-function: ease-in-out;
+}
+
+.lacona-view .central .option-enter {
+  opacity: 0;
+  transition: opacity 0.001s;
+}
+
+.lacona-view .option-enter.option-enter-active {
+  opacity: 1;
+}
+
+.lacona-view .option-leave {
+  opacity: 1;
+  transition: opacity 0.2s ease-in;
+  transition-timing-function: ease-in-out;
+}
+
+.lacona-view .central .option-leave {
+  opacity: 1;
+  transition: opacity 0.001s;
+}
+
+.lacona-view .option-leave.option-leave-active {
+  opacity: 0;
+}
+
+
+
+.lacona-view .option * {
+  display: inline;
+  white-space: pre;
+  color: white;
+}
+
+.lacona-view .category-action {
+  color: rgb(85,181,219);
+}
+
+.lacona-view .category-argument {
+  color: rgb(159,202,86);
+}
+
+.lacona-view .category-addition {
+  color: rgb(230,205,105);
+}
+
+.lacona-view .category-actor {
+  color: rgb(205,63,69);
+}
+
+.lacona-view .category-conjunction {
+  color: rgb(65,83,91);
+}

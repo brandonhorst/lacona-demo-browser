@@ -1,0 +1,42 @@
+{
+  "name": "lacona-demo-react",
+  "version": "0.0.1",
+  "description": "Demo of Lacona running in the browser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify scripts/script.js -o build/script.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brandonhorst/lacona-demo-browser.git"
+  },
+  "keywords": [
+    "lacona",
+    "demo",
+    "browser"
+  ],
+  "author": "@brandonhorst",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brandonhorst/lacona-demo-browser/issues"
+  },
+  "homepage": "https://github.com/brandonhorst/lacona-demo-browser",
+  "dependencies": {
+    "codemirror": "^4.12.0",
+    "lacona": "^0.16.0",
+    "lacona-addon-ordered": "0.4.0",
+    "lacona-addon-stateful": "0.8.0",
+    "lacona-addon-unique": "^0.3.0",
+    "lacona-phrase-datetime": "^0.1.1",
+    "lacona-phrase-freetext": "^0.5.2",
+    "lacona-util-fulltext": "0.2.0",
+    "lodash": "^2.4.1",
+    "normalize-css": "^2.3.1",
+    "react": "^0.12.2",
+    "react-code-mirror": "^3.0.3"
+  },
+  "devDependencies": {
+    "browserify": "^8.1.1"
+  }
+}

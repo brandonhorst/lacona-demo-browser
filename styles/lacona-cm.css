@@ -1,0 +1,46 @@
+
+.cm-s-lacona.CodeMirror {
+  background-color:#151718;
+  color:#d4d7d6;
+  font-family: Monaco, "Lucida Console", monospace;
+  font-size: 12;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.cm-s-lacona div.CodeMirror-cursor {
+  border-color: #ffe792;
+  border-width: 2px;
+}
+
+.cm-s-lacona .CodeMirror-selected {background: #222}
+.cm-s-lacona.CodeMirror-focused .CodeMirror-selected {background: #333;}
+
+.cm-s-lacona .CodeMirror-gutters {
+  background: #0D1011;
+  border-right:none;
+}
+
+.cm-s-lacona .cm-comment {color: rgb(65,83,91);}
+.cm-s-lacona .cm-property {color: rgb(205,63,69);}
+.cm-s-lacona .cm-variable {color: rgb(159,202,86);}
+.cm-s-lacona .cm-variable-2 {color: rgb(159,202,86);}
+.cm-s-lacona .cm-variable-3 {color: rgb(159,202,86);}
+.cm-s-lacona .cm-qualifier { }
+.cm-s-lacona .cm-def {color: rgb(230,205,105);}
+.cm-s-lacona .cm-string {color: rgb(85,181,219);}
+.cm-s-lacona .cm-string-2 {color: rgb(85,181,219);}
+.cm-s-lacona .cm-builtin {}
+.cm-s-lacona .cm-tag {}
+.cm-s-lacona .cm-keyword {color: rgb(230,205,105);}
+.cm-s-lacona .cm-operator {color: rgb(159,202,86);}
+.cm-s-lacona .cm-number {color: rgb(159,202,86);}
+
+
+
+div.cm-s-lacona span.CodeMirror-matchingbracket {
+  color: #cd3f45;
+  font-weight: bold;
+}
+.cm-s-lacona .CodeMirror-ruler {
+  border-color: #333;
+}

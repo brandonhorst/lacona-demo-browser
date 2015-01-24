@@ -1,0 +1,33 @@
+@import url(lacona.css);
+
+body {
+  background-color: rgb(21,23,24);
+  color: rgba(255, 255, 255, .5);
+}
+
+.demo-instance {
+  clear: both;
+  height: 400px;
+}
+
+.lacona-view, .config-view {
+}
+.config-view {
+  float: left;
+  width: 400px;
+}
+
+.lacona-view {
+  margin-left: 400px;
+}
+
+.settings {
+  margin-left: 20px;
+}
+
+.settings label {
+  display: block;
+}
+.settings label input {
+  margin-right: 10px;
+}
